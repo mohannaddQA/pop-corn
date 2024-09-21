@@ -24,7 +24,7 @@ function SelectedMovie({
   } = selectedMovieData;
 
   const APIkey = `42e8f174`;
-  const url = `http://www.omdbapi.com/?apikey=${APIkey}&i=${selectedMovieId}`;
+  const url = `https://www.omdbapi.com/?apikey=${APIkey}&i=${selectedMovieId}`;
 
   useEffect(() => {
     fetch(url)

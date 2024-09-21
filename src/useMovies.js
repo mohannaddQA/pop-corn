@@ -12,7 +12,7 @@ function useMovies(query, callback) {
   const [movies, setMovies] = useState([]);
 
   const APIkey = `42e8f174`;
-  const url = `http://www.omdbapi.com/?apikey=${APIkey}&s=${query}`;
+  const url = `https://www.omdbapi.com/?apikey=${APIkey}&s=${query}`;
 
   useEffect(
     function () {
